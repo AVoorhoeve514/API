@@ -10,7 +10,8 @@ body {
     display: inline-block;
     text-align: center;
     margin-top: 500px;
-    margin-right: 200px;
+    position:absolute;
+    left: 45%;
     padding: 20px 40px;
     font-size: 24px;
     background-color: #4CAF50;
@@ -24,12 +25,12 @@ body {
     background-color: #45a049;
 }
 .popup {
-    position: relative;
+    position: absolute;
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin-top: 380px;
-    margin-left: 250px;
+    margin-top: 300px;
+    left: 45%;
 }
 .popup .popuptext {
     text-align: center;
@@ -44,7 +45,6 @@ body {
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: -125px;
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -52,8 +52,7 @@ body {
     content: "";
     position: absolute;
     top: 100%;
-    left: 50%;
-    margin-left: -5px;
+    left: 35%;
     border-width: 5px;
     border-style: solid;
     border-color: #000 transparent transparent transparent;
@@ -70,4 +69,13 @@ h1 {
     color: #fff;
     margin-top: 0%;
     text-align: center;
+    background: #45a049;
+    border-width: 5px;
+    border-color: #000;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+;
 }
