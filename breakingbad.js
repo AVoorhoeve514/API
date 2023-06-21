@@ -4,7 +4,7 @@ let count = 0;
 function change_message() {
   clearTimeout(timeoutId);
 
-  fetch('https://api.breakingbadquotes.xyz/v1/quotes', {
+  fetch('https://cors-anywhere.herokuapp.com/https://api.breakingbadquotes.xyz/v1/quotes', {
     headers: {
       'Accept': 'application/json; charset=utf-8',
       'Content-Type': 'application/json; charset=utf-8',
